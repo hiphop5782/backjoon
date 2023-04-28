@@ -11,12 +11,12 @@ public class Main {
 		sc.close();
 		
 		int index = 0;
-		for(int i=0; i < data.length; i++) {
+		for(int i=1; i < data.length; i++) {
 			if(data[index] < data[i]) {
 				index = i;
 			}
 		}
 		System.out.println(data[index]);
-		System.out.println(index);
+		System.out.println(index+1);
 	}
 }
